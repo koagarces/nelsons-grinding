@@ -1,0 +1,9 @@
+.links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 50px;
+}
+
+.navbar {
+  justify-content: space-around;
+}
