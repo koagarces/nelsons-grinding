@@ -1,0 +1,9 @@
+.quoteButtBox {
+  background-color: rgb(10, 16, 109);
+  padding: 10px;
+}
+
+.quoteButt {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

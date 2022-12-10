@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../Styles/Header.css";
+import RequestQuote from "./Request";
 const Header = () => {
   return (
     <div className="header">
@@ -9,11 +10,12 @@ const Header = () => {
           Nelson Grinding
         </Link>
       </div>
-      <div className="quoteButtBox">
-        <Link className="quoteButt" to={`/`}>
+      <RequestQuote />
+      {/* <div className="quoteButtBox">
+        <Link className="quoteButt" to={`/quote`}>
           REQUEST A QUOTE
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -48,3 +48,9 @@
 .headerBox {
   height: 90px;
 }
+
+.pages {
+  display: flex;
+  width: 80%;
+  padding-left: 10%;
+}
