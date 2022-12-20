@@ -53,4 +53,5 @@
   display: flex;
   width: 80%;
   padding-left: 10%;
+  justify-content: center;
 }

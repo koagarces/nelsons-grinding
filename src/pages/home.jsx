@@ -1,22 +1,32 @@
+import RequestQuote from "../components/Request";
+import Slides from "../components/Slides";
+import "../Styles/Home.css";
+
 const Home = () => {
   return (
     <div className="homePage">
-      <div className="description">
-        <h1 className="title">
-          Nelson Grinding - Specializing in Precision Blanchard and Surface
-          Grinding
-        </h1>
-        <p>
-          Nelson Grinding is a precision grinding company specializing in
-          Blanchard and Mattison Surface Grinding of mild steel, tool steel,
-          heat treated steel, aluminum, stainless, cast iron, weldments,
-          titanium, and sometimes plastics and rubber. We are one of the oldest
-          and most reliable grinding service companies in Orange County,
-          California. We grind base plates, mounting plates, die plates, mold
-          plates, wear plates, bolster plates, parallels and other custom
-          engineered parts, tools and machine parts. We have over fourty years o
-        </p>
+      <div className="slideBox">
+        <Slides />
       </div>
+      <h1 className="title">NESLSON GRINDING</h1>
+      <h3>PRECISION BLANCHARD AND SURFACE GRINDING</h3>
+      <div className="grindingExamples">
+        <div className="blanchardExample">
+          <img
+            src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHKb3QzbigO_z_-QqnPPtKhUnDnu4gHHWpfyYq5WwzmNg?cn=THISLIFE&res=medium&ts=1671214276"
+            className="homePic"
+          />
+          <h3>Blanchard Grinding</h3>
+        </div>
+        <div className="surfaceExample">
+          <img
+            src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHrEIPwSvgYFdPt-cdHb2F-rnHjCyIZu59oV2we_kMG9A?cn=THISLIFE&res=medium&ts=1671214408"
+            className="homePic"
+          />
+          <h3>Surface Grinding</h3>
+        </div>
+      </div>
+      <RequestQuote />
     </div>
   );
 };

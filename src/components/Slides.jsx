@@ -1,35 +1,36 @@
-//how to make a photo carrousell?
-// import React, { useState } from 'react'
-// import wallpapers from './wallpapers'
+import React, { useEffect, useState } from "react";
+import GImage from "../photos/GrindingPhotos";
 
-// function App() {
-//         [ currentImage, setCurrentImage ] = useState(0)
-//         const path =`./wallpapers/${wallpapers[currentImage]}`
-//         return (
-//             <div className="App">
-//               <img className='image' src={path} alt='dont know how will fix this, we dont have a way to generate alt content'/>
-//               <div className='panel'>
-//                 <button onClick={() => setCurrentImage(currentImage - 1)}>Left</button>
-//                 <button onClick={() => setCurrentImage(currentImage + 1)}>Right</button>
-//               </div>
-//             </div>
-//         );
-//     }
+//Component that displays a photo carousel
 
-// // wallpapers/index.js
+function Slides() {
+  let [currentImage, setCurrentImage] = useState(0);
+  const path = `${GImage[currentImage]}`;
 
-// import Wall1 from './wallpapers/1.png';
-// import Wall2 from './wallpapers/2.png';
-// import Wall3 from './wallpapers/3.png';
-// import Wall4 from './wallpapers/4.png';
-// import Wall5 from './wallpapers/5.png';
-// import Wall6 from './wallpapers/6.png';
+  //function to return current image to image 1 out of 6
+  const resetPhotos = () => {
+    if (currentImage === 6) {
+      setCurrentImage(0);
+    }
+  };
 
-// export default [
-//     Wall1,
-//     Wall2,
-//     Wall3,
-//     Wall4,
-//     Wall5,
-//     Wall6
-// ]
+  useEffect(() => {
+    resetPhotos();
+  });
+
+  return (
+    <div className="Slides">
+      <img
+        className="image"
+        src={path}
+        alt="dont know how will fix this, we dont have a way to generate alt content"
+      />
+      <div className="panel">
+        <button onClick={() => setCurrentImage(currentImage - 1)}>Left</button>
+        <button onClick={() => setCurrentImage(currentImage + 1)}>Right</button>
+      </div>
+    </div>
+  );
+}
+
+export default Slides;
