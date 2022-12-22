@@ -13,12 +13,60 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: center;
+  padding: 50px;
 }
 
-.blanchardExample {
+.grindingExample {
   padding-right: 15px;
+  text-decoration: none;
+  color: black;
 }
 
-.surfaceExample {
-  padding-left: 15px;
+.slideImage {
+  width: 98vw;
+  height: 550px;
+}
+
+.panel button {
+  border: 0;
+  background: none;
+}
+
+.Slides button {
+  background: none;
+  border: 0;
+  height: 20px;
+  width: 20px;
+  scale: 6;
+  display: flex;
+  color: rgba(0, 0, 0, 0.335);
+  /* position: absolute; */
+}
+/* 
+.slideBox button {
+  display: flex;
+  align-items: center;
+} */
+
+.arrowButtons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  padding-left: 1.5%;
+  /* height: 80%; */
+  align-items: center;
+  /* margin-bottom: 4%; */
+}
+/* .leftArrow {
+  padding-left: 1%;
+}
+
+.rightArrow {
+  padding-right: 1%;
+} */
+
+.slideChild {
+  height: 550px;
 }

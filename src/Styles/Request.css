@@ -1,9 +1,12 @@
 .quoteButtBox {
-  background-color: rgb(10, 16, 109);
+  background-color: rgb(183, 38, 9);
   padding: 10px;
+  max-height: 40px;
 }
 
 .quoteButt {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  vertical-align: middle;
+  font-weight: 650;
 }

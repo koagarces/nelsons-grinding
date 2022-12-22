@@ -6,17 +6,17 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logoBox">
-        <Link className="homeLink" to={`/`}>
-          {/* <img className="logo" src={Logo} /> */}
-          Nelson Grinding
+        <Link className="LogoLink" to={`/home`} alt="NG">
+          <img
+            className="logo"
+            src={
+              "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHRufg4hqc15ia6quxncCfvVZV51t4MhjbEwRNyGscOgg?cn=THISLIFE&res=small&ts=1671597295"
+            }
+            alt="Nelson Grinding"
+          />
         </Link>
       </div>
       <RequestQuote />
-      {/* <div className="quoteButtBox">
-        <Link className="quoteButt" to={`/quote`}>
-          REQUEST A QUOTE
-        </Link>
-      </div> */}
     </div>
   );
 };

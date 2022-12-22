@@ -1,12 +1,14 @@
 import "./Styles/App.css";
 import Header from "./components/Header";
 import Home from "./pages/home";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Navbar";
 import Company from "./pages/company";
 import Contact from "./pages/contact";
 import Services from "./pages/services";
 import Quote from "./pages/quote";
+import BService from "./pages/BService";
+import SGService from "./pages/SGService";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
           <Route path="/quote" element={<Quote />} />
+          <Route path="/Blanchard" element={<BService />} />
+          <Route path="/Surface" element={<SGService />} />
         </Routes>
       </div>
       <div>{/* <Footer /> */}</div>

@@ -9,8 +9,11 @@ function Slides() {
 
   //function to return current image to image 1 out of 6
   const resetPhotos = () => {
-    if (currentImage === 6) {
+    if (currentImage === 7) {
       setCurrentImage(0);
+    }
+    if (currentImage === -1) {
+      setCurrentImage(6);
     }
   };
 
@@ -20,15 +23,21 @@ function Slides() {
 
   return (
     <div className="Slides">
-      <img
-        className="image"
-        src={path}
-        alt="dont know how will fix this, we dont have a way to generate alt content"
-      />
-      <div className="panel">
-        <button onClick={() => setCurrentImage(currentImage - 1)}>Left</button>
-        <button onClick={() => setCurrentImage(currentImage + 1)}>Right</button>
+      <div className="arrowButtons slideChild">
+        <button
+          className="leftArrow "
+          onClick={() => setCurrentImage(currentImage - 1)}
+        >
+          ●
+        </button>
+        <button
+          className="rightArrow "
+          onClick={() => setCurrentImage(currentImage + 1)}
+        >
+          ●
+        </button>
       </div>
+      <img className="slideImage slideChild" src={path} alt="unavailable" />
     </div>
   );
 }

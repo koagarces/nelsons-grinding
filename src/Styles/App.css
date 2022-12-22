@@ -38,11 +38,13 @@
 }
 
 .navBox {
-  background-color: rgb(40, 42, 109);
+  background-color: rgb(183, 38, 9);
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0px;
 }
 
 .headerBox {
@@ -55,3 +57,7 @@
   padding-left: 10%;
   justify-content: center;
 }
+/* 
+.slideBox {
+  background-color: black;
+} */
