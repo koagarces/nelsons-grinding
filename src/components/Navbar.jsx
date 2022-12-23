@@ -11,7 +11,7 @@ const Nav = () => {
         COMPANY
       </Link>
       <div class="dropdown">
-        <Link className="links" to={`/services`} id="servicesLink">
+        <Link className="links" id="servicesLink">
           SERVICES
         </Link>
         <div class="dropdown-content">
@@ -23,7 +23,7 @@ const Nav = () => {
           </Link>
         </div>
       </div>
-      <Link className="links" to={`contact`}>
+      <Link className="links" to={`/contact`}>
         CONTACT
       </Link>
     </div>

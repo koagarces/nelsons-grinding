@@ -9,6 +9,7 @@ import Services from "./pages/services";
 import Quote from "./pages/quote";
 import BService from "./pages/BService";
 import SGService from "./pages/SGService";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
           <Route path="/Surface" element={<SGService />} />
         </Routes>
       </div>
-      <div>{/* <Footer /> */}</div>
+      <div>
+        {" "}
+        <Footer />{" "}
+      </div>
     </div>
   );
 }

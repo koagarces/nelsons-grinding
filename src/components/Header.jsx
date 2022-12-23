@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logoBox">
-        <Link className="LogoLink" to={`/home`} alt="NG">
+        <Link className="LogoLink" to={`/`} alt="NG">
           <img
             className="logo"
             src={

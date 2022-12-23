@@ -16,8 +16,11 @@ function Slides() {
       setCurrentImage(6);
     }
   };
-
+  // const autoChangePhoto = () => {
+  //   setCurrentImage(currentImage + 1);
+  // };
   useEffect(() => {
+    // setInterval(autoChangePhoto, 8000);
     resetPhotos();
   });
 
@@ -28,13 +31,13 @@ function Slides() {
           className="leftArrow "
           onClick={() => setCurrentImage(currentImage - 1)}
         >
-          ●
+          <div className="centerButton"></div>
         </button>
         <button
           className="rightArrow "
           onClick={() => setCurrentImage(currentImage + 1)}
         >
-          ●
+          <div className="centerButton"></div>
         </button>
       </div>
       <img className="slideImage slideChild" src={path} alt="unavailable" />

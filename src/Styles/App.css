@@ -38,8 +38,8 @@
 }
 
 .navBox {
-  background-color: rgb(183, 38, 9);
-  height: 30px;
+  background-color: rgba(140, 0, 0, 255);
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,11 +53,21 @@
 
 .pages {
   display: flex;
-  width: 80%;
-  padding-left: 10%;
+  width: 100%;
+  /* padding-left: 10%; */
   justify-content: center;
 }
 /* 
 .slideBox {
   background-color: black;
 } */
+
+.footLinks {
+  color: black;
+  text-decoration: none;
+}
+
+.footBox {
+  height: 800px;
+  /* display: flex; */
+}

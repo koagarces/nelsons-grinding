@@ -2,7 +2,13 @@ import { Link, redirect } from "react-router-dom";
 import RequestQuote from "../components/Request";
 import Slides from "../components/Slides";
 import "../Styles/Home.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  solid,
+  regular,
+  brands,
+  icon,
+} from "@fortawesome/fontawesome-svg-core/import.macro";
 const Home = () => {
   // const navigate = useNavigate();
   const navToBServ = (event) => {
@@ -13,11 +19,48 @@ const Home = () => {
 
   return (
     <div className="homePage">
+      <div className="topBar">
+        <p>SPECIALIZING IN PRECISION GRINDING SINCE 1978</p>
+      </div>
       <div className="slideBox">
         <Slides />
       </div>
-      <h1 className="title">NELSON GRINDING</h1>
-      <h3>PRECISION BLANCHARD AND SURFACE GRINDING</h3>
+      <div className="homeInfo">
+        {/* <h1 className="title">NELSON GRINDING</h1>
+        <h3>PRECISION BLANCHARD AND SURFACE GRINDING</h3> */}
+        <div className="detailsBox">
+          <div className="details">
+            <FontAwesomeIcon
+              className="icons"
+              icon={solid("map-location-dot")}
+            />
+            <p className="iconDescription">
+              Nelson Grinding has become a leading custom grinding center
+              throughout the Orange County, California region.
+            </p>
+          </div>
+          <div className="details">
+            <FontAwesomeIcon className="icons" icon={solid("pen-ruler")} />
+            <p className="iconDescription">
+              We take pride in our precision grinding work by assuring qualtiy
+              products for all customers. Our customers know our quality work
+              and the standards that we set.
+            </p>
+          </div>
+          <div className="details">
+            <FontAwesomeIcon
+              className="icons"
+              icon={solid("building-circle-check")}
+            />
+            <p className="iconDescription">
+              For 30 years Nelson Grinding has focused on providing the best
+              value for our customers through superior customer service,
+              experienced project management, long lasting partnerships, and
+              innovative approaches to grinding services.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="grindingExamples">
         <Link className="grindingExample" to={"/blanchard"}>
           <img
