@@ -38,13 +38,16 @@
 }
 
 .navBox {
-  background-color: rgba(140, 0, 0, 255);
+  /* background-color: rgba(140, 0, 0, 255); */
+  position: absolute;
+  background-color: rgb(191, 16, 16);
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: sticky;
   top: 0px;
+  z-index: 5;
 }
 
 .headerBox {
@@ -63,11 +66,57 @@
 } */
 
 .footLinks {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  padding: 4px;
+  max-width: 147px;
 }
 
 .footBox {
-  height: 800px;
-  /* display: flex; */
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(0, 0, 0);
+  padding-left: 20%;
+  padding-top: 3%;
+  flex-direction: row;
+  text-align: left;
+}
+
+.footLinksBox {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.blackBar {
+  background-color: black;
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  /* left: 60%; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 40%; */
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.747);
+  height: 260px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.footer h4 {
+  padding-bottom: 30px;
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.footReq {
+  padding-top: 5%;
 }
