@@ -8,6 +8,7 @@
 
 .navbar {
   justify-content: space-around;
+  z-index: 8;
 }
 
 .dropbtn {
@@ -63,6 +64,6 @@
 } */
 
 #servicesLink:hover {
-  color: rgb(199, 4, 4);
+  color: rgb(0, 0, 0);
   font-weight: 610;
 }

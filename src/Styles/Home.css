@@ -7,6 +7,10 @@
   /* padding: 20px; */
 }
 
+/* .slideBox {
+  margin-bottom: 8%;
+} */
+
 .homePage {
   display: flex;
   justify-content: center;
@@ -53,7 +57,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  /* height: 100%; */
+
+  margin-top: 20%;
 }
 
 .overlay {
@@ -169,18 +175,18 @@
   align-items: center;
 } */
 
-.arrowButtons {
-  position: absolute;
+/* .arrowButtons { */
+/* position: absolute;
   display: flex;
   justify-content: space-between;
   width: 95vw;
   padding-left: 1.5%;
   pointer-events: none;
   /* height: 80%; */
-  align-items: center;
-  /* margin-bottom: 4%; */
-  background-color: rgba(240, 248, 255, 0);
-}
+/* align-items: center; */
+/* margin-bottom: 4%; */
+/* background-color: rgba(240, 248, 255, 0);  */
+/* } */
 .leftArrow {
   transform: rotate(135deg);
 }
@@ -215,7 +221,6 @@
   height: 30px;
   /* background-color: rgba(62, 84, 106, 255); */
   background-color: black;
-  margin-top: 0%;
   color: white;
   display: flex;
   align-items: center;
@@ -224,6 +229,8 @@
   font-weight: 650;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: 5;
+  /* margin-top: 5%; */
 }
 
 .topBar p {
@@ -238,15 +245,20 @@
 
 .detailsBox {
   display: flex;
+  justify-content: center;
   height: 350px;
-  padding-top: 6%;
+  padding-top: 3%;
   padding-bottom: 10%;
   max-width: 100%;
+  position: relative;
+  margin-bottom: 30%;
   /* padding-left: 15%; */
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: white;
 }
 .details {
+  padding-right: 8%;
   display: flex;
   padding-left: 8%;
   max-width: 550px;
@@ -266,11 +278,12 @@
   padding-bottom: 10%;
   padding-left: 10%;
 }
-/* 
+
 .homeInfo {
-  display: flex;
-  justify-content: center;
-} */
+  background-color: white;
+  z-index: 6;
+  height: 5%;
+}
 
 .servicesTitle {
   font-size: 30px;

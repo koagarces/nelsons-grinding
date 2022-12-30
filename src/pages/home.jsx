@@ -8,6 +8,7 @@ import {
   brands,
   icon,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
+import Slider from "../components/Slider";
 const Home = () => {
   // const navigate = useNavigate();
   const navToBServ = (event) => {
@@ -19,7 +20,8 @@ const Home = () => {
   return (
     <div className="homePage">
       <div className="slideBox">
-        <Slides />
+        {/* <Slides /> */}
+        <Slider />
       </div>
       <div className="topBar">
         <p>SPECIALIZING IN PRECISION GRINDING SINCE 1978</p>

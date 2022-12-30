@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import GImage from "../photos/GrindingPhotos";
+import { GImage } from "../photos/GrindingPhotos";
 
 //Component that displays a photo carousel
 
