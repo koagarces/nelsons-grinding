@@ -1,0 +1,68 @@
+/* .companyHeading {
+} */
+
+.companyFront {
+  position: relative;
+  /* text-align: center; */
+  /* background-color: rgba(0, 0, 0, 0.259); */
+  filter: grayscale(80%);
+  width: 90vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: 50% 42%;
+}
+
+.companyPage {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  /* pointer-events: none; */
+}
+
+.companyFrontBox {
+  /* background-color: black; */
+  width: 90vw;
+  height: 70vh;
+  overflow: none;
+}
+
+.textOverlay {
+  font-size: 30px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.companyFacts {
+  text-align: left;
+  list-style: none;
+}
+
+.companyDesc {
+  text-align: left;
+  margin-top: 2%;
+}
+
+.trioImageBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3% 0 3% 0;
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+}
+.trioImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* padding: 2% 0 2% 0; */
+}
+
+.two {
+  object-fit: cover;
+}
+
+li {
+  line-height: 40px;
+}
