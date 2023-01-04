@@ -38,24 +38,24 @@ const Slider = () => {
 
   return (
     <div className="Slides">
-      <div className="arrowButtons">
-        <FontAwesomeIcon
-          className="arrow prev "
-          icon={solid("angles-left")}
-          onClick={prevSlide}
-        />
-        <FontAwesomeIcon
-          className="arrow next "
-          icon={solid("angles-right")}
-          onClick={nextSlide}
-        />
-      </div>
       {sliderData.map((slide, index) => {
         return (
           <div
             className={index === currentSlide ? "slide current" : "slider"}
             key={index}
           >
+            <div className="arrowButtons">
+              <FontAwesomeIcon
+                className="arrow prev "
+                icon={solid("angles-left")}
+                onClick={prevSlide}
+              />
+              <FontAwesomeIcon
+                className="arrow next "
+                icon={solid("angles-right")}
+                onClick={nextSlide}
+              />
+            </div>
             {index === currentSlide && (
               <div className="imageBox">
                 <img src={slide.image} />

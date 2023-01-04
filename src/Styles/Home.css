@@ -59,7 +59,7 @@
   justify-content: center;
   /* height: 100%; */
 
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 
 .overlay {
@@ -89,7 +89,7 @@
 }
 
 .examplesDiv:hover .hidden {
-  transition: 4s;
+  /* transition: 4s; */
   display: flex;
 }
 
@@ -246,12 +246,12 @@
 .detailsBox {
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: 100%;
   padding-top: 3%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
   max-width: 100%;
   position: relative;
-  margin-bottom: 30%;
+  /* margin-bottom: 30%; */
   /* padding-left: 15%; */
   flex-direction: row;
   flex-wrap: wrap;
@@ -284,7 +284,7 @@
 .homeInfo {
   background-color: white;
   z-index: 6;
-  height: 5%;
+  height: 100%;
 }
 
 .servicesTitle {
@@ -306,4 +306,26 @@
 .redFont {
   color: red;
   text-transform: uppercase;
+}
+
+.bottomHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.bott {
+  max-width: 25%;
+  text-align: left;
+}
+
+.improve {
+  text-align: center;
+}
+
+.slideBox {
+  height: 600px;
 }

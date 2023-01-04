@@ -115,6 +115,42 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <div className="bottomHome">
+        <l className="capabilitiesList bott">
+          <h3 className="capabilityHeader">Grinding Capabilities</h3>
+          <li className="capability">Long or short runs</li>
+          <li className="capability">
+            Ferrous or non-ferrous metals, annealed or hardened up to 62 RC
+          </li>
+          <li className="capability">
+            Up to a 82" diagonal on Blanchard machines and 72" length on surface
+            grinding.
+          </li>
+        </l>
+        <l className="diffParts bott">
+          <h3>What Can be Ground?</h3>
+          <li>Plate stock and burnouts</li>
+          <li>Bar stock</li>
+          <li>Various parts ground to finish sizes</li>
+          <li>Outside edges of complete molds</li>
+          <li>Injection mold plates and inserts</li>
+          <li>Die blocks</li>
+          <li>Forgings</li>
+          <li>Castings</li>
+          <li>Stampings</li>
+          <li>Weldments</li>
+        </l>
+        <div className="improve bott">
+          <h3>Improving Job Costs</h3>
+          <p>
+            Machining costs and turnaround time can be reduced by simultaneously
+            Blanchard grinding multiple parts. Blanchard grinding is often
+            faster and more economical than milling because of fast set ups.
+            Multiple part grinding of large loads provides uniform part-to-part
+            thickness tolerances and surface finishes at a lower unit cost.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

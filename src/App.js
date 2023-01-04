@@ -31,9 +31,8 @@ function App() {
           <Route path="/Surface" element={<SGService />} />
         </Routes>
       </div>
-      <div>
-        {" "}
-        <Footer />{" "}
+      <div className="footerBox">
+        <Footer />
       </div>
     </div>
   );
