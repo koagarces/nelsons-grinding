@@ -31,7 +31,7 @@ const Slider = () => {
 
   useEffect(() => {
     if (autoScroll) {
-      // auto();
+      auto();
     }
     return () => clearInterval(slideInterval);
   }, [currentSlide]);

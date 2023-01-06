@@ -10,11 +10,11 @@ const Nav = () => {
       <Link className="links" to={`/company`}>
         COMPANY
       </Link>
-      <div class="dropdown">
+      <div className="dropdown">
         <Link className="links" id="servicesLink">
           SERVICES
         </Link>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <Link className="links" to={`/blanchard`}>
             BLANCHARD GRINDING
           </Link>

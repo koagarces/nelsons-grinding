@@ -84,3 +84,6 @@
   font-weight: 610;
   /* height: 40%; */
 }
+
+@media screen and (max-width: 800px) {
+}

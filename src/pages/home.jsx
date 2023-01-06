@@ -74,17 +74,17 @@ const Home = () => {
       <div className="examplesDiv">
         <div className="overlay">
           <div className="hidden">
-            <l>
+            <ul>
               <h3 className="subheading">Blanchard</h3>
               <li>3 - 42" Blanchard Grinders</li>
               <li>1 - 48" Blanchard Grinder</li>
 
               <li> 1 - 82" Blanchard Grinder</li>
               <li>Tolerances as low as +/-</li>
-            </l>
+            </ul>
           </div>
           <div className="hidden">
-            <l>
+            <ul>
               <h3 className="subheading">Surface Grinding</h3>
               <li> 2 - 54" Mattison Rotary Surface Grinders</li>
               <li>1 - 24" X 72" Mattison Recipricating Surface Grinder</li>
@@ -93,14 +93,14 @@ const Home = () => {
               <li>
                 Finishes to 16 RMS Roughing for subsequent finishing operations
               </li>
-            </l>
+            </ul>
           </div>
         </div>
 
         <div className="grindingExamples">
           <Link className="grindingExample topEx" to={"/blanchard"}>
             <img
-              src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHKb3QzbigO_z_-QqnPPtKhUnDnu4gHHWpfyYq5WwzmNg?cn=THISLIFE&res=medium&ts=1671214276"
+              src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrEBZuYdw4sizHf4pUVbnw8HqCe7ffHDJpwno-pEcjtJnw?cn=THISLIFE&res=large&ts=1672994026"
               className="homePic"
               alt="unavailable"
               onClick={navToBServ}
@@ -108,7 +108,7 @@ const Home = () => {
           </Link>
           <Link className="grindingExample bottEx" to={"/surface"}>
             <img
-              src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHrEIPwSvgYFdPt-cdHb2F-rnHjCyIZu59oV2we_kMG9A?cn=THISLIFE&res=medium&ts=1671214408"
+              src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrGXA6UwEiVNu_0rS4OSeqGf5cYdfB3jRoL_VZILaXEufg?cn=THISLIFE&res=large&ts=1672992202"
               className="homePic"
               alt="unavailable"
             />
@@ -116,7 +116,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bottomHome">
-        <l className="capabilitiesList bott">
+        <ul className="capabilitiesList bott">
           <h3 className="capabilityHeader">Grinding Capabilities</h3>
           <li className="capability">Long or short runs</li>
           <li className="capability">
@@ -126,8 +126,8 @@ const Home = () => {
             Up to a 82" diagonal on Blanchard machines and 72" length on surface
             grinding.
           </li>
-        </l>
-        <l className="diffParts bott">
+        </ul>
+        <ul className="diffParts bott">
           <h3>What Can be Ground?</h3>
           <li>Plate stock and burnouts</li>
           <li>Bar stock</li>
@@ -139,7 +139,7 @@ const Home = () => {
           <li>Castings</li>
           <li>Stampings</li>
           <li>Weldments</li>
-        </l>
+        </ul>
         <div className="improve bott">
           <h3>Improving Job Costs</h3>
           <p>

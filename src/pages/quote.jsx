@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import "../Styles/quote.css";
 const Quote = () => {
   const form = useRef();
 
@@ -25,31 +25,46 @@ const Quote = () => {
   };
 
   return (
-    <form classname="quoteBox" ref={form} onSubmit={sendEmail}>
+    <form className="reqBox" ref={form} onSubmit={sendEmail}>
       <div className="businessInfo">
         <h1>Business Information</h1>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Phone</label>
-        <input type="number" name="user_phone" />
-        <label>Business Name</label>
-        <input type="text" name="user_business" />
-        <label>Address</label>
-        <input type="text" name="user_address" />
-        <label>City</label>
-        <input type="text" name="user_city" />
-        <label>State</label>
-        <input type="text" name="user_state" />
-        <label>Zip Code</label>
-        <input type="text" name="user_zip" />
+        <div className="inputBox">
+          <label>Name</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className="inputBox">
+          <label>Email</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className="inputBox">
+          <label>Phone</label>
+          <input type="number" name="user_phone" />
+        </div>
+        <div className="inputBox">
+          <label>Business Name</label>
+          <input type="text" name="user_business" />
+        </div>
+        <div className="inputBox">
+          <label>Address</label>
+          <input type="text" name="user_address" />
+        </div>
+        <div className="inputBox">
+          <label>City</label>
+          <input type="text" name="user_city" />
+        </div>
+        <div className="inputBox">
+          <label>State</label>
+          <input type="text" name="user_state" />
+        </div>
+        <div className="inputBox">
+          <label>Zip Code</label>
+          <input type="text" name="user_zip" />
+        </div>
       </div>
       <div className="quoteInfo">
         <h1>Quote Details</h1>
-        <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" value="REQUEST" />
       </div>
     </form>
   );

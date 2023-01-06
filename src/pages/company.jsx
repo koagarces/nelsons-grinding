@@ -45,14 +45,14 @@ const Company = () => {
           tolerance within .001 of an inch. Edges and ends of plates are ground
           to meet exact dimensional tolerance and squareness requirements.
         </p>
-        <l className="companyFacts">
+        <ul className="companyFacts">
           <li>We have been in Orange County for over 30 years</li>
           <li>We have stability and financial strength</li>
           <li>We offer full service capabilities</li>
           <li>We have highly skilled project managers</li>
           <li>We have a documented Quality Control system in place</li>
           <li>Our track record of on budget and on time delivery.</li>
-        </l>
+        </ul>
       </div>
     </div>
   );

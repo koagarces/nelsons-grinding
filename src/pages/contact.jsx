@@ -36,7 +36,7 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <h1>JobSeekers</h1>
+          <h1>Job Seekers</h1>
           <p>
             Interested in a career at Nelson Grinding? Send us a message with
             your resume, full-name, email, number, and availability. We

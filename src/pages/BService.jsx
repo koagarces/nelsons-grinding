@@ -45,7 +45,7 @@ const BService = () => {
           parts.
         </p>
       </div>
-      <l className="servicesList">
+      <ul className="servicesList">
         <h3 className="service">SERVICES LIST</h3>
         <li className="service">3 - 42" Blanchard Grinders</li>
         <li className="service">31 - 48" Blanchard Grinder</li>
@@ -70,7 +70,7 @@ const BService = () => {
           Sets, Plastic, Tapered Configurations, and other Ferrous and
           Non-Ferrous Metals
         </p>
-      </l>
+      </ul>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const SGService = () => {
       <div className="duoImageBox">
         <img
           className="duoImage two"
-          src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHKloFA3SNIOoacLo_jA854UnDnu4gHHWpfyYq5WwzmNg?cn=THISLIFE&res=medium&ts=1672291821"
+          src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrFz1IysHXsYUAIy-dippw4iVZV51t4MhjbEwRNyGscOgg?cn=THISLIFE&res=medium&ts=1672992233"
         />
         <img
           className="duoImage three"
@@ -14,7 +14,7 @@ const SGService = () => {
         />
         <img
           className="duoImage three"
-          src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrG48k0sbyzqrBwc97dtvMLLaAUrgnwgvQnZ_1RWb7NZPA?cn=THISLIFE&res=medium&ts=1672636337"
+          src="https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHmagIzmb6pX4oH2FH_UQEOKwg5ydwHipy3aIZBf9dNYQ?cn=THISLIFE&res=large&ts=1672992203"
         />
         <img
           className="duoImage three"
