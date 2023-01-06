@@ -25,63 +25,46 @@ const Contact = () => {
         }
       );
   };
-  // <form ref={form} onSubmit={sendEmail}>
-  //   <label>Name</label>
-  //   <input type="text" name="user_name" />
-  //   <label>Email</label>
-  //   <input type="email" name="user_email" />
-  //   <label>Message</label>
-  //   <textarea name="message" />
-  //   <input type="submit" value="Send" />
-  // </form>
-
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <div class="page">
-        <div class="field field_v1">
-          <label for="first-name" class="ha-screen-reader">
-            First name
-          </label>
-          <input
-            id="first-name"
-            class="field__input"
-            type="text"
-            name="user_name"
-            placeholder="e.g. John"
-          />
-          <span class="field__label-wrap" aria-hidden="true" />
-          <span class="field__label">Your Name</span>
+    <div className="contactPage">
+      <div className="contactText">
+        <div>
+          <h1>Question?</h1>
+          <p>
+            You have questions and we have answers. Go ahead and send over your
+            questions and we will be keen to respond.{" "}
+          </p>
         </div>
-        <div class="field field_v2">
-          <label for="last-name" class="ha-screen-reader">
-            E-mail
-          </label>
-          <input
-            id="last-name"
-            class="field__input"
-            placeholder="e.g. Johnson"
-            type="email"
-            name="user_email"
-          />
-          <span class="field__label-wrap" aria-hidden="true">
-            <span class="field__label">Email</span>
-          </span>
+        <div>
+          <h1>JobSeekers</h1>
+          <p>
+            Interested in a career at Nelson Grinding? Send us a message with
+            your resume, full-name, email, number, and availability. We
+            encourage all candidates to apply regardless of experience! Make
+            sure to bring an eagerness to learn,hardworking mentality and
+            patience!
+          </p>
         </div>
       </div>
-      <div class="field field_v3">
-        <label for="email" class="ha-screen-reader"></label>
-        <input
-          id="email"
-          class="field__input"
-          placeholder="e.g. user@email.com"
-          name="message"
-        />
-        <span class="field__label-wrap" aria-hidden="true">
-          <span class="field__label">Message</span>
-        </span>
-      </div>
-      <input type="submit" value="Send" disabled="true" />
-    </form>
+      <form className="contactForm" ref={form} onSubmit={sendEmail}>
+        <h1>Send Us a Message!</h1>
+        <div className="commInfo contactChild">
+          <div className="nameBox commChild">
+            <label>Name</label>
+            <input type="text" name="user_name" />
+          </div>
+          <div className="emailBox commChild">
+            <label>Email</label>
+            <input type="email" name="user_email" />
+          </div>
+        </div>
+        <div className="messInfo contactChild">
+          <label>Message</label>
+          <textarea className="messText" name="message" />
+          <input classname="emailButton" type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
   );
 };
 
