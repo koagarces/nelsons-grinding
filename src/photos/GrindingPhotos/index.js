@@ -33,7 +33,7 @@ export const sliderData = [
   },
   {
     image:
-      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHHjNL1rJPjv9_O4ZcvLdZ-5cYdfB3jRoL_VZILaXEufg?cn=THISLIFE&res=large&ts=1672992141",
+      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrG_mWjqgRc4IX6Tr7kiuh12qCe7ffHDJpwno-pEcjtJnw?cn=THISLIFE&res=large&ts=1673070813",
   },
   {
     image:
@@ -41,11 +41,11 @@ export const sliderData = [
   },
   {
     image:
-      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrGzmq1k_lkvaUSY2oheJRHu4xJ2Twu75QF_jizMkB1ZdA?cn=THISLIFE&res=large&ts=1672992260",
+      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrH1XJqfyXU3ee4FJ_00YNxlV7ntXQOewWgszVPDOQPWWw?cn=THISLIFE&res=large&ts=1672992287",
   },
   {
     image:
-      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrHKloFA3SNIOoacLo_jA854UnDnu4gHHWpfyYq5WwzmNg?cn=THISLIFE&res=medium&ts=1672291821",
+      "https://uniim1.shutterfly.com/render/00-MYObA9_qGTLbUvWfy090B4qqNvdh7monO3KLvLrmGrEM8w8-xAWAr5ACeilFC-tY5cYdfB3jRoL_VZILaXEufg?cn=THISLIFE&res=large&ts=1673071141",
   },
   {
     image:
