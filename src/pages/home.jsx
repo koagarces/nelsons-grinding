@@ -44,8 +44,8 @@ const Home = () => {
             <FontAwesomeIcon className="icons" icon={solid("seedling")} />
             <p className="iconDescription">
               Here at Nelson Grinding, we believe in making the world more
-              <span className="redFont"> Environmentally Friendly</span>. All of
-              our machines solely rely on water to do their jobs.
+              <span className="redFont"> Environmentally Safe</span>. All of our
+              machines use water based lubrication.
             </p>
           </div>
           <div className="details">
@@ -64,7 +64,7 @@ const Home = () => {
               icon={solid("building-circle-check")}
             />
             <p className="iconDescription">
-              For 30 years Nelson Grinding has focused on providing the best
+              For 46 years Nelson Grinding has focused on providing the best
               value for our customers through superior customer service,
               experience, and innovative approaches to grinding services.
             </p>
