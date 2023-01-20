@@ -25,7 +25,14 @@ const Quote = () => {
   };
 
   return (
-    <form className="reqBox" ref={form} onSubmit={sendEmail}>
+    <form
+      onKeyPress={(e) => {
+        if (e.key === "Enter") e.preventDefault();
+      }}
+      className="reqBox"
+      ref={form}
+      onSubmit={sendEmail}
+    >
       <div className="businessInfo">
         <h1>Business Information</h1>
         <div className="inputBox">

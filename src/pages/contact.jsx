@@ -46,22 +46,43 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <form className="contactForm" ref={form} onSubmit={sendEmail}>
+      <form onKeyPress={(e) => {
+              if (e.key === "Enter") e.preventDefault();
+            }} className="contactForm" ref={form} onSubmit={sendEmail}>
         <h1>Send Us a Message!</h1>
         <div className="commInfo contactChild">
           <div className="nameBox commChild">
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input
+              onKeyPress={(e) => {
+                if (e.key === "Enter") e.preventDefault();
+              }}
+              type="text"
+              name="user_name"
+            />
           </div>
           <div className="emailBox commChild">
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input
+              onKeyPress={(e) => {
+                if (e.key === "Enter") e.preventDefault();
+              }}
+              type="email"
+              name="user_email"
+            />
           </div>
         </div>
         <div className="messInfo contactChild">
           <label>Message</label>
           <textarea className="messText" name="message" />
-          <input classname="emailButton" type="submit" value="Send" />
+          <input
+            onKeyPress={(e) => {
+              if (e.key === "Enter") e.preventDefault();
+            }}
+            classname="emailButton"
+            type="submit"
+            value="Send"
+          />
         </div>
       </form>
     </div>
