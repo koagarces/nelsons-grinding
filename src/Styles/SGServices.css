@@ -19,3 +19,19 @@
   width: 1200px;
   text-align: left;
 }
+
+@media screen and (max-width: 800px) {
+  .duoImageBox {
+    flex-direction: row;
+    width: 28%;
+  }
+
+  .duoImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .SGServiceBox {
+    padding: 10px;
+  }
+}

@@ -10,10 +10,17 @@ import Quote from "./pages/quote";
 import BService from "./pages/BService";
 import SGService from "./pages/SGService";
 import Footer from "./components/Footer";
+import { useState } from "react";
+import Burger from "./components/BurgerMenu/Burger";
+import Menu from "./components/BurgerMenu/Menu";
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
     <div className="App">
+      <Burger open={open} setOpen={setOpen} />
+      <Menu open={open} setOpen={setOpen} />
+
       <div className="headerBox">
         <Header className="headerComponet" />
       </div>

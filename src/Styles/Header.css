@@ -18,3 +18,18 @@
   /* transform: scale(4); */
   overflow: hidden;
 }
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 60%;
+  }
+
+  .header {
+    display: flex;
+    padding-top: 5%;
+    height: max-content;
+    height: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}

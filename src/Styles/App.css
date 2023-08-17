@@ -125,5 +125,27 @@
 @media screen and (max-width: 800px) {
   .App {
     width: 100vw;
+    min-height: 100vh;
+  }
+
+  .burgerBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navBox {
+    display: none;
+  }
+
+  .pages {
+    position: absolute;
+  }
+
+  .footBox {
+    display: none;
+  }
+
+  .footer {
+    display: none;
   }
 }

@@ -7,7 +7,7 @@ const RequestQuote = () => {
   return (
     <div className="quoteButtBox">
       <Link className="quoteButt" to={`/quote`}>
-        REQUEST A QUOTE
+        REQUEST QUOTE
       </Link>
     </div>
   );

@@ -15,3 +15,14 @@
   font-weight: 650;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+  .quoteButt {
+    width: 20%;
+    font-size: small;
+  }
+
+  .quoteButtBox {
+    width: 20%;
+  }
+}

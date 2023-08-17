@@ -329,3 +329,21 @@
 .slideBox {
   height: 600px;
 }
+
+@media screen and (max-width: 800px) {
+  .slideBox {
+    display: none;
+  }
+
+  .improve {
+    text-align: left;
+  }
+
+  .bottomHome {
+    /* width: 80%; */
+    font-size: smaller;
+  }
+  .topBar {
+    height: 40px;
+  }
+}
